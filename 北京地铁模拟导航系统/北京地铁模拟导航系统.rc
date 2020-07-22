@@ -1,0 +1,442 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\北京地铁模拟导航系统.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\北京地铁模拟导航系统.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 北京地铁模拟导航系统"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "北京地铁模拟导航系统 1.0 版",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2017",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_MY_DIALOG DIALOGEX 0, 0, 702, 412
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "北京地铁模拟导航系统"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT1,63,7,115,28,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,63,58,116,27,ES_CENTER | ES_AUTOHSCROLL
+    PUSHBUTTON      "启动",IDC_BUTTON1,16,286,198,53
+    EDITTEXT        IDC_EDIT3,63,108,116,28,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,63,156,148,60,ES_MULTILINE | ES_AUTOVSCROLL
+    PUSHBUTTON      "起",IDC_BUTTON2,365,288,13,14,BS_FLAT,WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON3,377,288,13,14,BS_FLAT,WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON4,354,244,13,14,BS_FLAT,WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON5,354,256,13,14,BS_FLAT,WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON6,347,209,13,14,BS_FLAT,WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON7,359,209,13,14,BS_FLAT,WS_EX_TRANSPARENT
+    CTEXT           "起点",IDC_STATIC,16,7,47,29,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+    CTEXT           "最短需要",IDC_STATIC,16,108,47,27,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+    CTEXT           "站",IDC_STATIC,179,108,29,27,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+    CTEXT           "导航路径",IDC_STATIC,16,156,47,59,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+    CTEXT           "终点",IDC_STATIC,16,58,47,28,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+    PUSHBUTTON      "起",IDC_BUTTON8,353,177,13,14,BS_FLAT,WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON9,353,189,13,14,BS_FLAT,WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON10,353,148,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON11,353,161,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    LTEXT           "By 马子文",IDC_STATIC,17,358,52,18
+    PUSHBUTTON      "起",IDC_BUTTON12,354,107,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON13,354,121,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON14,377,96,13,14,BS_FLAT,WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON15,389,96,13,14,BS_FLAT,WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON16,413,95,13,14,BS_FLAT,WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON17,425,95,13,14,BS_FLAT,WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON18,463,95,13,14,BS_FLAT,WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON19,475,95,13,14,BS_FLAT,WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON20,566,95,13,14,BS_FLAT,WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON21,578,95,13,14,BS_FLAT,WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON22,633,113,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON23,633,127,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON24,633,158,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON25,633,171,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON26,629,212,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON27,641,212,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON28,633,232,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON29,633,244,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON30,633,261,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON31,633,273,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON32,619,279,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON33,619,291,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON34,565,273,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON35,576,273,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON36,525,274,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON37,536,274,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON38,489,274,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON39,500,274,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON40,413,274,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON41,424,274,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON42,288,210,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON43,299,210,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    CONTROL         129,IDC_STATIC,"Static",SS_BITMAP,228,7,467,398
+    CTEXT           "价格",IDC_STATIC,16,237,48,28,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT5,63,237,120,28,ES_CENTER | ES_AUTOHSCROLL
+    CTEXT           "元",IDC_STATIC,183,238,29,27,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+    PUSHBUTTON      "起",IDC_BUTTON44,257,211,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON45,268,211,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON46,262,175,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON47,262,187,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON48,261,130,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON49,261,142,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON50,261,235,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON51,261,248,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON52,261,265,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON53,261,277,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON54,315,291,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON55,327,291,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON56,407,288,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON57,419,288,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON58,421,328,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON59,433,328,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON60,366,329,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON61,378,329,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON62,384,208,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON63,395,208,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON64,419,210,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON65,430,210,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON66,488,210,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON67,500,210,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON68,526,209,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON69,538,209,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON70,565,209,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON71,577,209,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON72,495,186,12,11,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON73,495,196,12,11,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON74,489,165,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON75,501,165,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON76,443,165,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON77,454,165,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON78,408,165,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON79,419,165,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON80,528,164,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON81,539,164,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON82,565,165,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON83,577,165,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON84,571,181,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON85,571,193,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON86,571,111,13,13,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON87,571,123,13,12,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON88,571,139,13,13,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON89,571,150,13,12,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON90,373,165,13,13,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON91,384,165,13,13,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON92,597,166,13,13,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON93,609,166,13,13,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON94,495,225,11,13,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON95,495,236,11,11,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON96,495,249,11,13,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON97,495,261,11,11,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON98,572,225,12,12,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON99,572,237,12,12,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON100,571,251,12,11,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON101,571,261,12,10,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON102,495,297,12,12,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON103,495,309,12,11,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON104,503,329,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON105,515,329,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON106,459,329,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON107,471,329,13,14,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON108,264,292,11,13,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON109,274,292,12,13,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    LTEXT           "From USTB",IDC_STATIC,17,382,47,17
+    PUSHBUTTON      "起",IDC_BUTTON110,452,210,12,13,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON111,462,210,11,13,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "起",IDC_BUTTON112,263,160,10,12,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "终",IDC_BUTTON113,273,160,10,12,BS_FLAT,
+                    WS_EX_TRANSPARENT
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "北京地铁模拟导航系统 Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "北京地铁模拟导航系统\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2017\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "北京地铁模拟导航系统.EXE\0"
+            VALUE "ProductName", "北京地铁模拟导航系统 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_MY_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 695
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 405
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP  DISCARDABLE     "res\\map.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 北京地铁模拟导航系统(&A)..."
+END
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\北京地铁模拟导航系统.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
